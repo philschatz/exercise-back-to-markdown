@@ -1,4 +1,11 @@
-# To Install
+# What is this?
+
+- downloads exercise JSON
+- converts HTML to markdown
+- converts ^^^ back to HTML  (with some superficial cleanup, see XSLT files)
+- prints the diff of the 2 HTML files (no diff means exercise is `OK`)
+
+# Requires
 
 - `brew install jq`  Using https://stedolan.github.io/jq/manual/
 - `xsltproc`
